@@ -1,6 +1,3 @@
-# project_nspectr
-code for nspectr.org
-
 # About
 
 This is the model behind [nspectr.org](nspectr.org), an app that predicts restaurant violations in Boston.
