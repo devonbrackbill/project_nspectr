@@ -1,0 +1,20 @@
+/home/q/anaconda/envs/experimental/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+[Parallel(n_jobs=7)]: Done   4 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=7)]: Done  11 tasks      | elapsed:  5.6min
+[Parallel(n_jobs=7)]: Done  18 tasks      | elapsed: 12.4min
+[Parallel(n_jobs=7)]: Done  36 out of  36 | elapsed: 27.2min finished
+[CV] n_estimators=500, learning_rate=0.05, max_depth=2 ...............
+[CV]  n_estimators=500, learning_rate=0.05, max_depth=2, score=0.840613 - 2.4min
+[CV] n_estimators=300, learning_rate=0.05, max_depth=8 ...............
+[CV]  n_estimators=300, learning_rate=0.05, max_depth=8, score=0.811515 - 8.8min
+[CV] n_estimators=500, learning_rate=0.1, max_depth=2 ................
+[CV]  n_estimators=500, learning_rate=0.1, max_depth=2, score=0.843162 - 2.5min
+[CV] n_estimators=300, learning_rate=0.1, max_depth=3 ................
+[CV]  n_estimators=300, learning_rate=0.1, max_depth=3, score=0.825838 - 2.2min
+[CV] n_estimators=300, learning_rate=0.1, max_depth=8 ................
+[CV]  n_estimators=300, learning_rate=0.1, max_depth=8, score=0.813718 - 7.7min
+{'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+0.698080779146
+0.781930520581
