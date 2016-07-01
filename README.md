@@ -2,7 +2,7 @@
 
 This is the model behind [nspectr.org](http://www.nspectr.org), an app that predicts restaurant violations in Boston.
 
-The main steps are:
+**Main steps**:
 
 + clean the data using PrepData.R
 
@@ -10,7 +10,7 @@ The main steps are:
 
 The R models use the H2O library, which is a distributed Java virtual machine that allows for efficient parallel computation of machine learning algorithms.
 
-There are are 5 model files:
+**There are are 5 model files**:
 
 + model_feature_selection (.R only): runs cross-validation to reduce the number of features (initially 5,000+) down to the optimal number of 200.
 
