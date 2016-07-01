@@ -1,6 +1,6 @@
 # About
 
-This is the model behind [nspectr.org](nspectr.org), an app that predicts restaurant violations in Boston.
+This is the model behind [nspectr.org](http://www.nspectr.org), an app that predicts restaurant violations in Boston.
 
 The main steps are:
 
